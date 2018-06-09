@@ -273,7 +273,7 @@ GLOBAL_PROTECT(security_mode)
 	features += msg
 
 	if (features)
-		s += ": [jointext(features, ", ")]"
+		s += "\n [jointext(features, ", ")]"
 
 	status = s
 

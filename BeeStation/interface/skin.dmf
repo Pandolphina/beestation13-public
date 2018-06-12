@@ -1,5 +1,6 @@
 macro "default"
 
+
 menu "menu"
 	elem 
 		name = "&File"
@@ -150,10 +151,11 @@ window "mapwindow"
 window "infowindow"
 	elem "infowindow"
 		type = MAIN
-		pos = 0,0
+		pos = 281,0
 		size = 640x480
 		anchor1 = none
 		anchor2 = none
+		background-color = none
 		saved-params = "pos;size;is-minimized;is-maximized"
 		is-pane = true
 	elem "info"
@@ -162,6 +164,7 @@ window "infowindow"
 		size = 640x445
 		anchor1 = 0,0
 		anchor2 = 100,100
+		background-color = none
 		saved-params = "splitter"
 		left = "statwindow"
 		right = "outputwindow"
@@ -172,6 +175,7 @@ window "infowindow"
 		size = 85x20
 		anchor1 = 3,0
 		anchor2 = 17,0
+		background-color = none
 		saved-params = "is-checked"
 		text = "Changelog"
 		command = "changelog"
@@ -181,6 +185,7 @@ window "infowindow"
 		size = 85x20
 		anchor1 = 17,0
 		anchor2 = 31,0
+		background-color = none
 		saved-params = "is-checked"
 		text = "Rules"
 		command = "rules"
@@ -190,6 +195,7 @@ window "infowindow"
 		size = 85x20
 		anchor1 = 31,0
 		anchor2 = 45,0
+		background-color = none
 		saved-params = "is-checked"
 		text = "Wiki"
 		command = "wiki"
@@ -199,6 +205,7 @@ window "infowindow"
 		size = 85x20
 		anchor1 = 45,0
 		anchor2 = 59,0
+		background-color = none
 		saved-params = "is-checked"
 		text = "Forum"
 		command = "forum"
@@ -208,26 +215,27 @@ window "infowindow"
 		size = 85x20
 		anchor1 = 59,0
 		anchor2 = 73,0
+		background-color = none
 		saved-params = "is-checked"
 		text = "Github"
 		command = "github"
-		
 	elem "report-issue"
 		type = BUTTON
 		pos = 441,5
 		size = 85x20
 		anchor1 = 73,0
 		anchor2 = 87,0
+		background-color = none
 		saved-params = "is-checked"
 		text = "Report Issue"
 		command = "report-issue"
-
 	elem "donate"
 		type = BUTTON
 		pos = 526,5
 		size = 85x20
 		anchor1 = 87,0
 		anchor2 = 100,0
+		background-color = #eed12d
 		saved-params = "is-checked"
 		text = "Donate"
 		command = "donate"
@@ -235,10 +243,11 @@ window "infowindow"
 window "outputwindow"
 	elem "outputwindow"
 		type = MAIN
-		pos = 0,0
+		pos = 281,0
 		size = 640x480
 		anchor1 = none
 		anchor2 = none
+		background-color = none
 		saved-params = "pos;size;is-minimized;is-maximized"
 		is-pane = true
 	elem "browseroutput"

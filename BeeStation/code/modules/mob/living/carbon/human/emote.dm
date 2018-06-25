@@ -14,6 +14,12 @@
 	message_param = "give daps to %t."
 	restraint_check = TRUE
 
+/datum/emote/living/carbon/human/screech
+	key = "screech"
+	key_third_person = "screeches"
+	message = "screeches!"
+	message_param = "screeches at %t!"
+
 /datum/emote/living/carbon/human/eyebrow
 	key = "eyebrow"
 	message = "raises an eyebrow."

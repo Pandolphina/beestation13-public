@@ -73,13 +73,13 @@ SUBSYSTEM_DEF(input)
 		"W" = "W", "A" = "A", "S" = "S", "D" = "D", // movement
 		"1" = "1", "2" = "2", "3" = "3", "4" = "4", // intent
 		"B" = "B", // resist
-		"E" = "E", // quick equip
+		"E" = "E", // switch hands
 		"F" = "F", // intent left
 		"G" = "G", // intent right
 		"H" = "H", // stop pulling
 		"Q" = "Q", // drop
 		"R" = "R", // throw
-		"X" = "X", // switch hands
+		"X" = "X", // quick equip
 		"Y" = "Y", // activate item
 		"Z" = "Z", // activate item
 		)

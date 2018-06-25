@@ -16,7 +16,7 @@
 		if("F")
 			a_intent_change(INTENT_HOTKEY_LEFT)
 			return
-		if("X", "Northeast") // Northeast is Page-up
+		if("E", "Northeast") // Northeast is Page-up
 			swap_hand()
 			return
 		if("Y", "Z", "Southeast")	// Southeast is Page-down

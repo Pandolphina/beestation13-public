@@ -1,7 +1,7 @@
 /mob/living/carbon/human/key_down(_key, client/user)
 	if(client.keys_held["Shift"])
 		switch(_key)
-			if("E") // Put held thing in belt or take out most recent thing from belt
+			if("X") // Put held thing in belt or take out most recent thing from belt
 				var/obj/item/thing = get_active_held_item()
 				var/obj/item/storage/equipped_belt = get_item_by_slot(slot_belt)
 				if(!equipped_belt) // We also let you equip a belt like this
@@ -62,7 +62,7 @@
 				return
 
 	switch(_key)
-		if("E")
+		if("X")
 			quick_equip()
 			return
 

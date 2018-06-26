@@ -74,14 +74,14 @@ Credit where due:
 	var/datum/antagonist/clockcult/C = new update_type(L.mind)
 	C.make_team = create_team
 	C.show_in_roundend = create_team //tutorial scarabs begone
-	
+
 	if(iscyborg(L))
 		var/mob/living/silicon/robot/R = L
 		if(R.deployed)
 			var/mob/living/silicon/ai/AI = R.mainframe
 			R.undeploy()
 			to_chat(AI, "<span class='userdanger'>Anomaly Detected. Returned to core!</span>") //The AI needs to be in its core to properly be converted
-	
+
 	. = L.mind.add_antag_datum(C)
 
 	if(!silent && L)
@@ -99,7 +99,7 @@ Credit where due:
 			" in an endless grey void.<br>It cannot be allowed to escape"].</span>")
 			L.playsound_local(get_turf(L), 'sound/ambience/antag/clockcultalr.ogg', 40, TRUE, frequency = 100000, pressure_affected = FALSE)
 			flash_color(L, flash_color = list("#BE8700", "#BE8700", "#BE8700", rgb(0,0,0)), flash_time = 5)
-	
+
 
 
 
@@ -126,7 +126,7 @@ Credit where due:
 	config_tag = "clockwork_cult"
 	antag_flag = ROLE_SERVANT_OF_RATVAR
 	false_report_weight = 10
-	required_players = 24
+	required_players = 20
 	required_enemies = 4
 	recommended_enemies = 4
 	enemy_minimum_age = 14

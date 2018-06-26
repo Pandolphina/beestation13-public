@@ -4,7 +4,7 @@
 	antag_flag = ROLE_DEVIL
 	false_report_weight = 1
 	protected_jobs = list("Lawyer", "Curator", "Chaplain", "Head of Security", "Captain", "AI")
-	required_players = 0
+	required_players = 10
 	required_enemies = 1
 	recommended_enemies = 4
 	reroll_friendly = 1

@@ -1,12 +1,12 @@
 // BEGIN_INTERNALS
 /*
 MAP_ZOOM: 1.000
-LAST_COMPILE_TIME: 1530056466
-DIR: _maps _maps\map_files _maps\map_files\BoxStation _maps\map_files\Deltastation _maps\map_files\MetaStation _maps\map_files\OmegaStation _maps\map_files\PubbyStation code code\__DEFINES code\_globalvars code\controllers code\controllers\subsystem code\game code\game\gamemodes code\game\gamemodes\changeling code\game\gamemodes\clock_cult code\game\gamemodes\cult code\game\gamemodes\devil code\game\gamemodes\devil\devil agent code\game\gamemodes\extended code\game\gamemodes\monkey code\game\gamemodes\revolution code\game\gamemodes\traitor code\game\gamemodes\wizard code\game\objects code\modules code\modules\projectiles code\modules\projectiles\ammunition code\modules\projectiles\ammunition\ballistic config config\title_screens config\title_screens\images 
+LAST_COMPILE_TIME: 1530122180
+DIR: _maps _maps\map_files _maps\map_files\BoxStation _maps\map_files\Deltastation _maps\map_files\MetaStation _maps\map_files\OmegaStation _maps\map_files\PubbyStation code code\__DEFINES code\_globalvars code\controllers code\controllers\subsystem code\game code\game\gamemodes code\game\gamemodes\changeling code\game\gamemodes\clock_cult code\game\gamemodes\cult code\game\gamemodes\devil code\game\gamemodes\wizard 
 AUTO_FILE_DIR: OFF
 MAP_ICON_TYPE: 0
 LAST_COMPILE_VERSION: 512.1429
-WINDOW: code\game\gamemodes\changeling\changeling.dm;code\game\gamemodes\devil\devil_game_mode.dm;code\game\gamemodes\devil\game_mode.dm;code\game\gamemodes\cult\cult.dm;code\game\gamemodes\clock_cult\clock_cult.dm;code\game\gamemodes\devil\devil agent\devil_agent.dm;code\game\gamemodes\revolution\revolution.dm;code\game\gamemodes\wizard\wizard.dm
-FILE: code\game\gamemodes\wizard\wizard.dm
+WINDOW: code\game\gamemodes\changeling\changeling.dm;code\game\gamemodes\devil\devil_game_mode.dm;code\game\gamemodes\devil\game_mode.dm;code\game\gamemodes\cult\cult.dm;code\game\gamemodes\clock_cult\clock_cult.dm;code\game\gamemodes\wizard\wizard.dm;code\game\gamemodes\objective_items.dm
+FILE: code\game\gamemodes\objective_items.dm
 */
 // END_INTERNALS

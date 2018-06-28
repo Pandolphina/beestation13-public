@@ -1,12 +1,12 @@
 // BEGIN_INTERNALS
 /*
 MAP_ZOOM: 1.000
-LAST_COMPILE_TIME: 1530122785
-DIR: html 
+LAST_COMPILE_TIME: 1530185377
+DIR: code code\__HELPERS code\_onclick code\_onclick\hud code\datums code\game code\game\gamemodes code\game\gamemodes\clown_ops code\game\machinery code\game\objects code\game\objects\items code\game\objects\items\devices icons interface sound 
 AUTO_FILE_DIR: OFF
 MAP_ICON_TYPE: 0
-LAST_COMPILE_VERSION: 512.1429
-WINDOW: code\game\gamemodes\changeling\changeling.dm;code\game\gamemodes\devil\devil_game_mode.dm;code\game\gamemodes\devil\game_mode.dm;code\game\gamemodes\cult\cult.dm;code\game\gamemodes\clock_cult\clock_cult.dm;code\game\gamemodes\wizard\wizard.dm;code\game\gamemodes\objective_items.dm
-FILE: code\game\gamemodes\objective_items.dm
+LAST_COMPILE_VERSION: 512.1432
+WINDOW: code\game\gamemodes\objective_items.dm;icons\ooc.dmi;interface\skin.dmf;interface\stylesheet.dm;interface\menu.dm;interface\interface.dm;code\_onclick\hud\screen_objects.dm;code\__HELPERS\type2type.dm;code\_onclick\hud\_defines.dm
+FILE: code\_onclick\hud\_defines.dm
 */
 // END_INTERNALS

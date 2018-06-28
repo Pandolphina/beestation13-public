@@ -164,8 +164,8 @@ window "mapwindow"
 window "infowindow"
 	elem "infowindow"
 		type = MAIN
-		pos = 281,0
-		size = 385x480
+		pos = 281,4
+		size = 383x476
 		anchor1 = none
 		anchor2 = none
 		background-color = #333333
@@ -179,7 +179,7 @@ window "infowindow"
 	elem "info"
 		type = CHILD
 		pos = 0,30
-		size = 384x450
+		size = 382x446
 		anchor1 = 0,0
 		anchor2 = 100,100
 		background-color = #333333
@@ -194,73 +194,73 @@ window "infowindow"
 		anchor1 = 3,0
 		anchor2 = 17,0
 		text-color = #ffffff
-		background-color = #000080
+		background-color = #800000
 		saved-params = "is-checked"
 		text = "Changelog"
 		command = "changelog"
 	elem "rules"
 		type = BUTTON
 		pos = 64,5
-		size = 49x20
+		size = 48x20
 		anchor1 = 17,0
 		anchor2 = 31,0
 		text-color = #ffffff
-		background-color = #000080
+		background-color = #800000
 		saved-params = "is-checked"
 		text = "Rules"
 		command = "rules"
 	elem "wiki"
 		type = BUTTON
-		pos = 114,5
+		pos = 113,5
 		size = 50x20
 		anchor1 = 31,0
 		anchor2 = 45,0
 		text-color = #ffffff
-		background-color = #000080
+		background-color = #800000
 		saved-params = "is-checked"
 		text = "Wiki"
 		command = "wiki"
 	elem "forum"
 		type = BUTTON
-		pos = 164,5
-		size = 49x20
+		pos = 163,5
+		size = 48x20
 		anchor1 = 45,0
 		anchor2 = 59,0
 		text-color = #ffffff
-		background-color = #000080
+		background-color = #800000
 		saved-params = "is-checked"
 		text = "Forum"
 		command = "forum"
 	elem "github"
 		type = BUTTON
-		pos = 213,5
+		pos = 211,5
 		size = 49x20
 		anchor1 = 59,0
 		anchor2 = 73,0
 		text-color = #ffffff
-		background-color = #000080
+		background-color = #800000
 		saved-params = "is-checked"
 		text = "Github"
 		command = "github"
 	elem "report-issue"
 		type = BUTTON
-		pos = 262,5
-		size = 66x20
+		pos = 260,5
+		size = 67x20
 		anchor1 = 73,0
 		anchor2 = 87,0
 		text-color = #ffffff
-		background-color = #000080
+		background-color = #800000
 		saved-params = "is-checked"
 		text = "Report Issue"
 		command = "report-issue"
 	elem "donate"
 		type = BUTTON
-		pos = 328,5
-		size = 52x20
+		pos = 327,5
+		size = 51x20
 		anchor1 = 87,0
 		anchor2 = 100,0
 		text-color = #ffffff
-		background-color = #808000
+		background-color = #9a9721
 		saved-params = "is-checked"
 		text = "Donate"
 		command = "donate"

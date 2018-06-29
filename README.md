@@ -1,7 +1,9 @@
-# BeeStation 13
+# BeeStation Public
 
+## This is a fork of the BeeStation 13 Codebase, where everyone is a contributor with push access.  
+## Don't worrry, the original BeeCode is still safe and sound.
 
-Welcome to BeeStation 13's Official Github!
-
-Here you can find the most updated version of our code!
+# Rules
+### - Git commit messages must be accurately descriptive of what they change, any vague or dishonest commits will be removed.
+### - Do not meaninglessly destroy others' code.
 

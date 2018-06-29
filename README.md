@@ -1,6 +1,6 @@
 # BeeStation Public
 
-## This is a fork of the BeeStation 13 Codebase, where everyone is a contributor with push access.  
+## This is a fork of the BeeStation 13 Codebase, where all pull requests are accepted.
 ## Don't worrry, the original BeeCode is still safe and sound.
 
 # Rules
